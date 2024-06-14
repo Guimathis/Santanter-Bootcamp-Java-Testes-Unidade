@@ -11,7 +11,7 @@ public class PessoaTest {
         Pessoa pessoa = new Pessoa("Guimas", LocalDate.of(2004,12,17));
 
         Assertions.assertEquals(19, pessoa.getIdade());
-        Assertions.assertTrue(pessoa.ehMaiorDeidade());
+        Assertions.assertTrue(pessoa.ehMaiorDeIdade());
 
     }
 }
